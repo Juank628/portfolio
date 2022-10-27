@@ -147,9 +147,9 @@ body {
   border-radius: 4px;
 }
 
-.card-button {
+.default-button {
   margin-top: 29px;
-  width: 122px;
+  padding: 12px;
   height: 48px;
   background-color: #36b37f;
   font-family: 'Inter', sans-serif;
@@ -157,7 +157,98 @@ body {
   font-size: 17px;
   line-height: 24px;
   color: white;
-  letter-spacing: 3%;
   border-radius: 4px;
   border: 0;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+}
+
+.about-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 327px;
+}
+
+.about-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #42526e;
+  text-align: center;
+  margin: 0;
+}
+
+.habilities-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 59px;
+}
+
+.hability-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  width: 327px;
+  height: 352px;
+  margin-bottom: 24px;
+}
+
+.hability-icon {
+  margin-top: 40px;
+}
+
+.hability-title {
+  margin: 20px 0 0 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+  text-align: center;
+}
+
+.hability-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 24px;
+  padding: 0;
+}
+
+.hability-item {
+  padding: 12px;
+  background-color: white;
+  list-style-type: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #36b37e;
+  border-radius: 8px;
+}
+
+.final-text {
+  margin: 36px 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  text-align: center;
 }
