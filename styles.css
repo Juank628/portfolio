@@ -51,16 +51,111 @@ body {
   color: #172b4d;
   text-align: center;
   margin-top: 40px;
+  margin-bottom: 50px;
 }
 
-.links-container {
+.social-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 0 50px;
-  margin-top: 50px;
 }
 
-.list-item {
+.social-link {
   list-style-type: none;
+}
+
+.works-container {
+
+}
+
+.works-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 327px;
+}
+
+.line-delimiter {
+  width: 48px;
+  height: 4px;
+  margin-top: 24px;
+  margin-bottom: 62px;
+  background-color: #36b37e;
+  border: none;
+}
+
+.cards-container {
+  display: grid;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  align-items: flex-end;
+  width: 327px;
+  height: 474px;
+  background-color: #ebf0ee;
+  border: 1px solid #ebf0ee;
+  border-radius: 8px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 222px;
+  width: 474px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.card-title {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  padding: 0;
+  width: 100%;
+}
+
+.work-skill {
+  padding: 8px 12px;
+  background-color: #ebf0ee;
+  list-style-type: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #3a4a42;
+  border-radius: 4px;
+}
+
+.card-button {
+  margin-top: 29px;
+  width: 122px;
+  height: 48px;
+  background-color: #36b37f;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
+  letter-spacing: 3%;
+  border-radius: 4px;
+  border: 0;
 }
