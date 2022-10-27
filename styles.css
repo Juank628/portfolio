@@ -60,3 +60,7 @@ body {
   padding: 0 50px;
   margin-top: 50px;
 }
+
+.list-item {
+  list-style-type: none;
+}
