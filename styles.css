@@ -252,3 +252,34 @@ body {
   color: #172b4d;
   text-align: center;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-input {
+  width: 295px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #d0d9d4;
+  margin-bottom: 24px;
+  padding: 0 16px;
+}
+
+.form-input::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #6b778c;
+}
+
+.form-text {
+  width: 295px;
+  height: 98px;
+  border-radius: 4px;
+  border: 1px solid #60c095;
+  padding: 16px;
+}
