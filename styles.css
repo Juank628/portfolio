@@ -167,9 +167,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 12px;
-  background-image: url(./img/about_background.svg);
-  background-repeat: no-repeat;
-  background-position: right top;
+  background: url(./img/about_background.svg) right top no-repeat, url(./img/about_background_2.svg) left 310px no-repeat;
 }
 
 .about-title {
