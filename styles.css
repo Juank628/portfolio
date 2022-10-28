@@ -167,6 +167,9 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 12px;
+  background-image: url(./img/about_background.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 
 .about-title {
@@ -176,7 +179,7 @@ body {
   line-height: 52px;
   color: #172b4d;
   text-align: center;
-  margin: 0 auto;
+  margin: 30px auto;
   max-width: 327px;
 }
 
@@ -259,6 +262,9 @@ body {
   flex-direction: column;
   align-items: center;
   margin-bottom: 44px;
+  background-image: url(./img/form_background.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .form-input {
@@ -286,11 +292,26 @@ body {
   padding: 16px;
 }
 
+.form-text::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #091e42;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .footer-email {
-  text-align: center;
   font-family: 'Inter', sans-serif;
   font-size: 20px;
   line-height: 32px;
   font-weight: 400;
   color: #42526e;
+  text-decoration: none;
+  margin-bottom: 50px;
 }
