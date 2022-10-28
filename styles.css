@@ -56,8 +56,9 @@ body {
 
 .social-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 19px;
   padding: 0 50px;
 }
 
@@ -257,6 +258,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 44px;
 }
 
 .form-input {
@@ -282,4 +284,13 @@ body {
   border-radius: 4px;
   border: 1px solid #60c095;
   padding: 16px;
+}
+
+.footer-email {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #42526e;
 }
