@@ -176,8 +176,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 12px;
-  background: url(./img/about_background.svg) right top no-repeat,
-    url(./img/about_background_2.svg) left 310px no-repeat;
+  background: url(./img/about_background.svg) right top no-repeat, url(./img/about_background_2.svg) left 310px no-repeat;
 }
 
 .about-title {
@@ -296,7 +295,7 @@ body {
 }
 
 .form-text::placeholder {
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   color: #091e42;
 }
 
@@ -306,7 +305,7 @@ body {
 }
 
 .my-email {
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
