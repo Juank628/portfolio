@@ -162,6 +162,15 @@ body {
   border: 0;
 }
 
+.default-button:hover {
+  background-color: #36b37f;
+  cursor: pointer;
+}
+
+.default-button:active {
+  background-color: #008552;
+}
+
 .about-container {
   display: flex;
   flex-direction: column;
