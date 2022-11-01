@@ -11,7 +11,7 @@ body {
 }
 
 .header-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 20px;
   color: #28352f;
@@ -24,7 +24,7 @@ body {
 }
 
 .intro-title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -34,7 +34,7 @@ body {
 }
 
 .intro-subtitle {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -44,7 +44,7 @@ body {
 }
 
 .intro-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -71,7 +71,7 @@ body {
 }
 
 .works-title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -120,7 +120,7 @@ body {
 
 .card-title {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -140,7 +140,7 @@ body {
   padding: 8px 12px;
   background-color: #ebf0ee;
   list-style-type: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -153,7 +153,7 @@ body {
   padding: 12px;
   height: 48px;
   background-color: #36b37f;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
@@ -167,11 +167,12 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 12px;
-  background: url(./img/about_background.svg) right top no-repeat, url(./img/about_background_2.svg) left 310px no-repeat;
+  background: url(./img/about_background.svg) right top no-repeat,
+    url(./img/about_background_2.svg) left 310px no-repeat;
 }
 
 .about-title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -182,7 +183,7 @@ body {
 }
 
 .about-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -216,7 +217,7 @@ body {
 
 .hability-title {
   margin: 20px 0 0 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -237,7 +238,7 @@ body {
   padding: 12px;
   background-color: white;
   list-style-type: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -247,7 +248,7 @@ body {
 
 .final-text {
   margin: 36px 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -271,10 +272,43 @@ body {
   border: 1px solid #d0d9d4;
 }
 
+.form-input::placeholder,
+.form-text::placeholder {
+  font-size: 15px;
+  line-height: 24px;
+}
+
 .form-text {
   width: 100%;
   padding: 12px;
   box-sizing: border-box;
   border-radius: 4px;
   border: 1px solid #60c095;
+}
+
+.form-text::placeholder {
+  font-family: inter;
+  color: #091e42;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-email {
+  font-family: inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.bottom-line {
+  border-bottom: 5px solid #505f79;
+  margin-bottom: 8px;
+  width: 30%;
+  align-self: center;
+  border-radius: 2px;
 }
