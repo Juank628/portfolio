@@ -11,7 +11,7 @@ body {
 }
 
 .header-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 20px;
   color: #28352f;
@@ -24,7 +24,7 @@ body {
 }
 
 .intro-title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -34,7 +34,7 @@ body {
 }
 
 .intro-subtitle {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -44,7 +44,7 @@ body {
 }
 
 .intro-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -71,7 +71,7 @@ body {
 }
 
 .works-title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -120,7 +120,7 @@ body {
 
 .card-title {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -140,7 +140,7 @@ body {
   padding: 8px 12px;
   background-color: #ebf0ee;
   list-style-type: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -153,13 +153,22 @@ body {
   padding: 12px;
   height: 48px;
   background-color: #36b37f;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
   color: white;
   border-radius: 4px;
   border: 0;
+}
+
+.default-button:hover {
+  background-color: #36b37f;
+  cursor: pointer;
+}
+
+.default-button:active {
+  background-color: #008552;
 }
 
 .about-container {
@@ -171,7 +180,7 @@ body {
 }
 
 .about-title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -182,7 +191,7 @@ body {
 }
 
 .about-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -216,7 +225,7 @@ body {
 
 .hability-title {
   margin: 20px 0 0 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -237,7 +246,7 @@ body {
   padding: 12px;
   background-color: white;
   list-style-type: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -247,7 +256,7 @@ body {
 
 .final-text {
   margin: 36px 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -259,57 +268,55 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 44px;
-  background-image: url(./img/form_background.svg);
-  background-repeat: no-repeat;
-  background-position: right bottom;
+  padding: 24px;
 }
 
 .form-input {
-  width: 295px;
-  height: 48px;
-  border-radius: 4px;
-  border: 1px solid #d0d9d4;
+  width: 100%;
+  padding: 15px 16px;
   margin-bottom: 24px;
-  padding: 0 16px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid #d0d9d4;
 }
 
-.form-input::placeholder {
-  font-family: 'Inter', sans-serif;
+.form-input::placeholder,
+.form-text::placeholder {
   font-size: 15px;
   line-height: 24px;
-  font-weight: 400;
-  color: #6b778c;
 }
 
 .form-text {
-  width: 295px;
-  height: 98px;
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
   border-radius: 4px;
   border: 1px solid #60c095;
-  padding: 16px;
 }
 
 .form-text::placeholder {
-  font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 400;
+  font-family: "Inter", sans-serif;
   color: #091e42;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
-.footer-email {
-  font-family: 'Inter', sans-serif;
+.my-email {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  font-weight: 400;
-  color: #42526e;
-  text-decoration: none;
-  margin-bottom: 50px;
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.bottom-line {
+  border-bottom: 5px solid #505f79;
+  margin-bottom: 8px;
+  width: 30%;
+  align-self: center;
+  border-radius: 2px;
 }
