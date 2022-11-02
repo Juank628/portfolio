@@ -276,7 +276,7 @@ body {
   border-radius: 8px;
 }
 
-.final-text {
+.contact-text {
   margin: 36px 12px;
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -343,8 +343,9 @@ body {
   border-radius: 2px;
 }
 
-/*General classes*/
-
+/*
+General classes
+*/
 a:link {
   text-decoration: none;
 }
@@ -353,9 +354,11 @@ li {
   list-style-type: none;
 }
 
+/*
+media
+*/
 
 @media screen and (min-width: 768px) {
-
   .header-mobile {
     display: none;
   }
@@ -403,4 +406,30 @@ li {
     max-width: 60%;
   }
 
+  .form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 150px;
+  }
+
+  .contact-text {
+    font-size: 30px;
+    margin-top: 70px;
+  }
+
+  .contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    align-items: center;
+    padding: 24px;
+  }
+
+  .form-text {
+    height: 114px;
+  }
+
+  .form-button {
+    width: 150px;
+  }
 }
