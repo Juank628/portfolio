@@ -2,12 +2,36 @@ body {
   margin: 0;
 }
 
-.header-container {
+.header-mobile {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 24px;
   padding-right: 24px;
+}
+
+.header-dektop {
+  display: none;
+}
+
+.navbar-desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin: 0;
+  height: 52px;
+}
+
+.navbar-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.navbar-link a {
+  color: #344563;
 }
 
 .header-text {
@@ -18,6 +42,9 @@ body {
 }
 
 .intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url(./img/header_background.png);
   background-size: cover;
   padding: 65px 24px;
@@ -60,10 +87,6 @@ body {
   align-items: center;
   gap: 19px;
   padding: 0 50px;
-}
-
-.social-link {
-  list-style-type: none;
 }
 
 .works-container {
@@ -139,7 +162,6 @@ body {
 .work-skill {
   padding: 8px 12px;
   background-color: #ebf0ee;
-  list-style-type: none;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -204,6 +226,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  column-gap: 24px;
   margin-top: 59px;
 }
 
@@ -245,7 +268,6 @@ body {
 .hability-item {
   padding: 12px;
   background-color: white;
-  list-style-type: none;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -319,4 +341,66 @@ body {
   width: 30%;
   align-self: center;
   border-radius: 2px;
+}
+
+/*General classes*/
+
+a:link {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .header-mobile {
+    display: none;
+  }
+
+  .header-dektop {
+    display: block;
+    width: 100%;
+  }
+
+  .intro-text {
+    max-width: 60%;
+  }
+
+  .intro-container {
+    background-image: url(./img/header_background_desktop.svg);
+    background-size: cover;
+    margin-top: -52px;
+    padding-top: 180px;
+    padding-bottom: 300px;
+  }
+
+  .works-container {
+    margin-top: 100px;
+  }
+
+  .works-title {
+    max-width: 100%;
+  }
+
+  .line-delimiter {
+    display: none;
+  }
+
+  .cards-container {
+    margin-top: 52px;
+    padding: 0 143px;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  }
+
+  .card-container {
+    justify-self: center;
+  }
+
+  .about-text {
+    max-width: 60%;
+  }
+
 }
