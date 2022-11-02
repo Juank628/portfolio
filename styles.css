@@ -410,6 +410,7 @@ media
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 100px 150px;
+    background: url("./img/form_background_desktop_1.svg") bottom left no-repeat, url("./img/form_background_desktop_2.svg") 300px bottom no-repeat, url("./img/form_background_desktop_3.svg") bottom right no-repeat;
   }
 
   .contact-text {
@@ -431,5 +432,18 @@ media
 
   .form-button {
     width: 150px;
+  }
+
+  .my-email {
+    display: none;
+  }
+
+  .footer-line {
+    width: 100%;
+    border: 1px solid #dfe1e6;
+  }
+
+  .bottom-line {
+    display: none;
   }
 }
