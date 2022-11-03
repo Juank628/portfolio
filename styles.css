@@ -402,6 +402,10 @@ media
     justify-self: center;
   }
 
+  .about-container {
+    background: url("./img/about_background_desktop_1.svg") left 150px no-repeat, url("./img/about_background_desktop_2.svg") top right no-repeat;
+  }
+
   .about-text {
     max-width: 60%;
   }
