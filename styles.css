@@ -401,6 +401,12 @@ media
 
   .card-container {
     justify-self: center;
+    transition-property: transform;
+    transition-duration: 0.5s;
+  }
+
+  .card-container:hover {
+    transform: scale(1.1);
   }
 
   .about-container {
