@@ -374,14 +374,15 @@ media
 
   .intro-container {
     background-image: url(./img/header_background_desktop.svg);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin-top: -52px;
     padding-top: 180px;
-    padding-bottom: 300px;
+    padding-bottom: 520px;
   }
 
   .works-container {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .works-title {
@@ -444,6 +445,7 @@ media
 
   .footer-line {
     width: 100%;
+    box-sizing: border-box;
     border: 1px solid #dfe1e6;
   }
 
