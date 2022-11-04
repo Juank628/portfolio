@@ -28,6 +28,12 @@ body {
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
+  transition-property: font-size font-weight;
+  transition-duration: 0.5s;
+}
+
+.navbar-link:hover {
+  font-size: 17px;
 }
 
 .navbar-link a {
@@ -58,6 +64,25 @@ body {
   color: #172b4d;
   text-align: center;
   margin: 0;
+  animation-name: left-to-right;
+  animation-duration: 1.2s;
+}
+
+@keyframes left-to-right {
+  0% {
+    position: relative;
+    left: -400px;
+  }
+
+  75% {
+    position: relative;
+    left: 20px;
+  }
+
+  100% {
+    position: relative;
+    left: 0;
+  }
 }
 
 .intro-subtitle {
@@ -68,6 +93,25 @@ body {
   color: #36b37f;
   text-align: center;
   margin: 0;
+  animation-name: right-to-left;
+  animation-duration: 1.2s;
+}
+
+@keyframes right-to-left {
+  0% {
+    position: relative;
+    right: -400px;
+  }
+
+  75% {
+    position: relative;
+    right: 20px;
+  }
+
+  100% {
+    position: relative;
+    right: 0;
+  }
 }
 
 .intro-text {
@@ -128,6 +172,12 @@ body {
   border: 1px solid #ebf0ee;
   border-radius: 8px;
   margin-bottom: 24px;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
 }
 
 .card-info {
@@ -168,6 +218,15 @@ body {
   line-height: 16px;
   color: #3a4a42;
   border-radius: 4px;
+}
+
+.work-button {
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.work-button:hover {
+  transform: rotateX(360deg) scale(1.4);
 }
 
 .default-button {
@@ -415,7 +474,10 @@ media
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 100px 150px;
-    background: url("./img/form_background_desktop_1.svg") bottom left no-repeat, url("./img/form_background_desktop_2.svg") 300px bottom no-repeat, url("./img/form_background_desktop_3.svg") bottom right no-repeat;
+    background:
+      url("./img/form_background_desktop_1.svg") bottom left no-repeat,
+      url("./img/form_background_desktop_2.svg") 300px bottom no-repeat,
+      url("./img/form_background_desktop_3.svg") bottom right no-repeat;
   }
 
   .contact-text {
