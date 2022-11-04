@@ -28,6 +28,12 @@ body {
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
+  transition-property: font-size font-weight;
+  transition-duration: 0.5s;
+}
+
+.navbar-link:hover {
+  font-size: 17px;
 }
 
 .navbar-link a {
@@ -67,13 +73,15 @@ body {
     position: relative;
     left: -400px;
   }
+
   75% {
     position: relative;
     left: 20px;
   }
+
   100% {
     position: relative;
-    left: 0px;
+    left: 0;
   }
 }
 
@@ -94,13 +102,15 @@ body {
     position: relative;
     right: -400px;
   }
+
   75% {
     position: relative;
     right: 20px;
   }
+
   100% {
     position: relative;
-    right: 0px;
+    right: 0;
   }
 }
 
@@ -162,6 +172,12 @@ body {
   border: 1px solid #ebf0ee;
   border-radius: 8px;
   margin-bottom: 24px;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
 }
 
 .card-info {
@@ -204,6 +220,15 @@ body {
   border-radius: 4px;
 }
 
+.work-button {
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.work-button:hover {
+  transform: rotateX(360deg) scale(1.4);
+}
+
 .default-button {
   margin-top: 29px;
   padding: 12px;
@@ -232,8 +257,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 12px;
-  background: url(./img/about_background.svg) right top no-repeat,
-    url(./img/about_background_2.svg) left 310px no-repeat;
+  background: url(./img/about_background.svg) right top no-repeat, url(./img/about_background_2.svg) left 310px no-repeat;
 }
 
 .about-title {
@@ -436,17 +460,10 @@ media
 
   .card-container {
     justify-self: center;
-    transition-property: transform;
-    transition-duration: 0.5s;
-  }
-
-  .card-container:hover {
-    transform: scale(1.1);
   }
 
   .about-container {
-    background: url("./img/about_background_desktop_1.svg") left 150px no-repeat,
-      url("./img/about_background_desktop_2.svg") top right no-repeat;
+    background: url("./img/about_background_desktop_1.svg") left 150px no-repeat, url("./img/about_background_desktop_2.svg") top right no-repeat;
   }
 
   .about-text {
@@ -457,7 +474,8 @@ media
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 100px 150px;
-    background: url("./img/form_background_desktop_1.svg") bottom left no-repeat,
+    background:
+      url("./img/form_background_desktop_1.svg") bottom left no-repeat,
       url("./img/form_background_desktop_2.svg") 300px bottom no-repeat,
       url("./img/form_background_desktop_3.svg") bottom right no-repeat;
   }
