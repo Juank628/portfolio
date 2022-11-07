@@ -7,6 +7,12 @@
 - HTML
 - CSS
 
+## Live Demo
+
+Please click on the link below to see the live demo:
+
+https://juank628.github.io/portfolio
+
 ## Getting Started
 
 To clone this repository:
@@ -19,7 +25,7 @@ git clone https://github.com/Juank628/portfolio.git
 
 - GitHub: [@Juank628](https://github.com/Juank628)
 - Twitter: [@juancadev81](https://twitter.com/juancadev81)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/juan-carlos-sanchez-zunino-271b5151)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/juan-carlos-sanchez-zunino-271b5151)
 
 
 ## 🤝 Contributing
