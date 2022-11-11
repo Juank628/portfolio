@@ -13,6 +13,10 @@ Please click on the link below to see the live demo:
 
 https://juank628.github.io/portfolio
 
+## Video
+
+https://www.loom.com/share/552f8ba1af7c493eae3f228639a63f56
+
 ## Getting Started
 
 To clone this repository:
