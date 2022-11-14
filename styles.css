@@ -422,6 +422,10 @@ li {
   height: 100vh
 }
 
+.no-visible {
+  display: none;
+}
+
 /*
 media
 */
