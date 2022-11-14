@@ -415,11 +415,32 @@ li {
 
 
 .mobile-menu {
+  box-sizing: border-box;
   position: absolute;
   top: 0;
   background-color: white;
   width: 100%;
-  height: 100vh
+  height: 100vh;
+  padding: 20px 20px 0 20px;
+}
+
+.mobile-menu #close_menu_icon {
+  text-align: right;
+  color: #67798e;
+}
+
+.mobile-menu ul li {
+  margin-top: 30px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+}
+
+.mobile-menu ul li a {
+  color: inherit;
 }
 
 .no-visible {
