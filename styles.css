@@ -235,15 +235,6 @@ classes
   border-radius: 4px;
 }
 
-.work-button {
-  transition-property: transform;
-  transition-duration: 1s;
-}
-
-.work-button:hover {
-  transform: rotateX(360deg) scale(1.4);
-}
-
 .default-button {
   margin-top: 29px;
   padding: 12px;
