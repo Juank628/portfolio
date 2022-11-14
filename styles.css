@@ -1,6 +1,21 @@
+/*
+General styles
+*/
 body {
   margin: 0;
 }
+
+a:link {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*
+classes
+*/
 
 .header-mobile {
   display: flex;
@@ -402,18 +417,6 @@ body {
   border-radius: 2px;
 }
 
-/*
-General classes
-*/
-a:link {
-  text-decoration: none;
-}
-
-li {
-  list-style-type: none;
-}
-
-
 .mobile-menu {
   box-sizing: border-box;
   position: absolute;
@@ -427,6 +430,8 @@ li {
 .mobile-menu #close_menu_icon {
   text-align: right;
   color: #67798e;
+  font-family: cursive;
+  font-size: 24px;
 }
 
 .mobile-menu ul li {

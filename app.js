@@ -1,14 +1,19 @@
-let mobile_menu_icon = document.getElementById("mobile_menu_icon")
-let mobile_menu = document.getElementById("mobile_menu")
-let close_menu_icon = document.getElementById("close_menu_icon")
+const mobileMenuIcon = document.getElementById('mobile_menu_icon');
+const mobileMenu = document.getElementById('mobile_menu');
+const closeMenuIcon = document.getElementById('close_menu_icon');
+const mobileLinkList = document.getElementById('mobile_link_list');
 
-mobile_menu_icon.addEventListener("click", (e)=> {
-    let classList = mobile_menu.classList
-    classList.remove("no-visible")
-})
+mobileMenuIcon.addEventListener('click', () => {
+  const { classList } = mobileMenu;
+  classList.remove('no-visible');
+});
 
-close_menu_icon.addEventListener("click", (e)=> {
-    let classList = mobile_menu.classList
-    classList.add("no-visible")
-})
+closeMenuIcon.addEventListener('click', () => {
+  const { classList } = mobileMenu;
+  classList.add('no-visible');
+});
 
+mobileLinkList.addEventListener('click', () => {
+  const { classList } = mobileMenu;
+  classList.add('no-visible');
+});
