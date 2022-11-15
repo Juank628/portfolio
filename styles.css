@@ -1,6 +1,10 @@
 /*
 General styles
 */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
@@ -436,6 +440,7 @@ classes
 }
 
 .mobile-menu ul li a {
+  display: block;
   color: inherit;
 }
 
