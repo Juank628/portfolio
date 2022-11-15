@@ -11,8 +11,20 @@
     <title>Juan Portfolio</title>
 </head>
 <body>
+
+    <header class="mobile-menu no-visible" id="mobile_menu">
+        <nav>
+            <div id="close_menu_icon">X</div>
+            <ul id="mobile_link_list">
+                <li> <a href="#portfolio">Portfolio</a> </li>
+                <li> <a href="#about">About</a> </li>
+                <li> <a href="#contact">Contact</a> </li>
+            </ul>
+        </nav>
+    </header>
+
     <header>
-        <div class="header-mobile">
+        <div  id="mobile_menu_icon" class="header-mobile">
             <p class="header-text">Welcome</p>
             <nav>   
                 <a href="#"><img src="./img/menu_icon.png" alt="click menu"></a>
@@ -21,9 +33,9 @@
 
         <div class="header-dektop">
             <ul class="navbar-desktop">
-                <li class="navbar-link"><a href="#">Portfolio</a></li>
-                <li class="navbar-link"><a href="#">About</a></li>
-                <li class="navbar-link"><a href="#">Contact</a></li>
+                <li class="navbar-link"><a href="#portfolio">Portfolio</a></li>
+                <li class="navbar-link"><a href="#about">About</a></li>
+                <li class="navbar-link"><a href="#contact">Contact</a></li>
             </ul>
         </div>           
     </header>
@@ -44,7 +56,7 @@
             </ul>
         </section>
 
-        <section class="works-container">
+        <section class="works-container" id="portfolio">
             <h2 class="works-title">My Recent Works</h2>
             <hr class="line-delimiter">
             <div class="cards-container">
@@ -130,7 +142,7 @@
             </div>
         </section>
 
-        <section class="about-container">
+        <section class="about-container" id="about">
             <h2 class="about-title">About me</h2>
             <p class="about-text">
                 I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
@@ -176,7 +188,7 @@
             </div>
         </section>
 
-        <section class="form-container">
+        <section class="form-container" id="contact">
             <p class="contact-text">
                 I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
             </p>
@@ -201,5 +213,6 @@
             <div class="bottom-line"></div>
         </footer>
 
+        <script src="./app.js"></script>
 </body>
 </html>

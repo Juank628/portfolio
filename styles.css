@@ -1,6 +1,25 @@
+/*
+General styles
+*/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
+
+a:link {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*
+classes
+*/
 
 .header-mobile {
   display: flex;
@@ -393,15 +412,40 @@ body {
   border-radius: 2px;
 }
 
-/*
-General classes
-*/
-a:link {
-  text-decoration: none;
+.mobile-menu {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  padding: 20px 20px 0 20px;
 }
 
-li {
-  list-style-type: none;
+.mobile-menu #close_menu_icon {
+  text-align: right;
+  color: #67798e;
+  font-family: cursive;
+  font-size: 24px;
+}
+
+.mobile-menu ul li {
+  margin-top: 30px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+}
+
+.mobile-menu ul li a {
+  display: block;
+  color: inherit;
+}
+
+.no-visible {
+  display: none;
 }
 
 /*
