@@ -117,3 +117,14 @@ document.querySelectorAll('.project-btn').forEach((button) => {
 modalClose.addEventListener('click', () => {
   modal.classList.add('no-visible');
 });
+
+document.getElementById('contact-form').addEventListener('submit', (e) => {
+  const email = document.getElementById('email');
+  const emailRegex = /^[a-z0-9_.]+@[a-z0-9_.]+\.[a-z0-9_.]+$/;
+  if (!emailRegex.test(email.value)) {
+    e.preventDefault();
+    document
+      .getElementById('email_error_lowercase')
+      .classList.remove('no-visible');
+  }
+});

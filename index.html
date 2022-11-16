@@ -244,6 +244,7 @@
           action="https://formspree.io/f/xdojpdez"
           method="post"
           class="contact-form"
+          id="contact-form"
         >
           <input
             class="form-input"
@@ -259,6 +260,7 @@
             placeholder="Email address"
             required
             name="email"
+            id="email"
           />
           <textarea
             class="form-text"
@@ -271,9 +273,10 @@
             required
             name="text"
           ></textarea>
-          <button type="button" class="form-button default-button">
+          <button type="submit" class="form-button default-button">
             Get in touch
           </button>
+          <span id="email_error_lowercase" class="validation-error no-visible">email must be in lowercase</span>
         </form>
       </section>
     </main>
