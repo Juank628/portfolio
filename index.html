@@ -271,9 +271,12 @@
             required
             name="text"
           ></textarea>
-          <button type="button" class="form-button default-button">
+          <button type="submit" class="form-button default-button">
             Get in touch
           </button>
+          <span id="email_error_lowercase" class="validation-error no-visible">email must be in lowercase</span>
+          <span id="email_error_format" class="validation-error no-visible">email format error</span>
+          <span id="email_error_empty" class="validation-error no-visible">email empty</span>
         </form>
       </section>
     </main>
