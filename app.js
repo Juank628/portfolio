@@ -1,55 +1,55 @@
 const projects = [
   {
     id: 'project_1',
-    name: 'Multi-Post Stories Gain+Glory 1',
-    description: 'This is my 1st project',
+    name: 'Keeping track of hundreds of components',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     img: './img/snapshoot_portfolio_template.png',
-    technologies: ['Ruby on rails', 'css', 'JavsScript', 'html'],
+    technologies: ['Ruby on rails', 'css', 'JavsScript'],
     linkLive: 'https://juank628.github.io/portfolio/',
     linkSource: 'https://github.com/Juank628/portfolio',
   },
   {
     id: 'project_2',
-    name: 'Multi-Post Stories Gain+Glory 2',
-    description: 'This is my 2nd project',
+    name: 'Keeping track of hundreds of components',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     img: './img/snapshoot_portfolio_template.png',
-    technologies: ['Python', 'css', 'JavsScript', 'html'],
+    technologies: ['Python', 'css', 'JavsScript'],
     linkLive: 'https://juank628.github.io/portfolio/',
     linkSource: 'https://github.com/Juank628/portfolio',
   },
   {
     id: 'project_3',
-    name: 'Multi-Post Stories Gain+Glory 3',
-    description: 'This is my 3th project',
+    name: 'Keeping track of hundreds of components',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     img: './img/snapshoot_portfolio_template.png',
-    technologies: ['Node', 'css', 'JavsScript', 'html'],
+    technologies: ['Node', 'css', 'JavsScript'],
     linkLive: 'https://juank628.github.io/portfolio/',
     linkSource: 'https://github.com/Juank628/portfolio',
   },
   {
     id: 'project_4',
-    name: 'Multi-Post Stories Gain+Glory 4',
-    description: 'This is my 4th project',
+    name: 'Keeping track of hundreds of components',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     img: './img/snapshoot_portfolio_template.png',
-    technologies: ['Go', 'css', 'JavsScript', 'html'],
+    technologies: ['Go', 'css', 'JavsScript'],
     linkLive: 'https://juank628.github.io/portfolio/',
     linkSource: 'https://github.com/Juank628/portfolio',
   },
   {
     id: 'project_5',
-    name: 'Multi-Post Stories Gain+Glory 5',
-    description: 'This is my 5th project',
+    name: 'Keeping track of hundreds of components',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     img: './img/snapshoot_portfolio_template.png',
-    technologies: ['C++', 'css', 'JavsScript', 'html'],
+    technologies: ['C++', 'css', 'JavsScript'],
     linkLive: 'https://juank628.github.io/portfolio/',
     linkSource: 'https://github.com/Juank628/portfolio',
   },
   {
     id: 'project_6',
-    name: 'Multi-Post Stories Gain+Glory 6',
-    description: 'This is my 6th project',
+    name: 'Keeping track of hundreds of components',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     img: './img/snapshoot_portfolio_template.png',
-    technologies: ['C#', 'css', 'JavsScript', 'html'],
+    technologies: ['C#', 'css', 'JavsScript'],
     linkLive: 'https://juank628.github.io/portfolio/',
     linkSource: 'https://github.com/Juank628/portfolio',
   },
@@ -83,7 +83,6 @@ Modal
 */
 const modalClose = document.querySelector('.modal-close');
 const modal = document.getElementById('modal_container');
-const modalImg = document.getElementById('modal_img');
 const modalName = document.querySelector('.modal-project-name');
 const modalDescription = document.querySelector('.modal-project-desc');
 const modalSkills = document.getElementById('modal_skills');
@@ -98,7 +97,6 @@ document.querySelectorAll('.project-btn').forEach((button) => {
       (project) => project.id === projectElement.id,
     )[0];
 
-    modalImg.src = projectInfo.img;
     modalName.textContent = projectInfo.name;
     modalDescription.textContent = projectInfo.description;
     modalLiveLink.href = projectInfo.linkLive;
