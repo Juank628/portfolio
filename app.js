@@ -119,10 +119,12 @@ modalClose.addEventListener('click', () => {
 });
 
 document.getElementById('contact-form').addEventListener('submit', (e) => {
-  const email = document.getElementById('email')
-  const emailRegex = /^[a-z0-9_.]+@[a-z0-9_.]+\.[a-z0-9_.]+$/
+  const email = document.getElementById('email');
+  const emailRegex = /^[a-z0-9_.]+@[a-z0-9_.]+\.[a-z0-9_.]+$/;
   if (!emailRegex.test(email.value)) {
-    e.preventDefault()
-    document.getElementById('email_error_lowercase').classList.remove('no-visible')
+    e.preventDefault();
+    document
+      .getElementById('email_error_lowercase')
+      .classList.remove('no-visible');
   }
 });
