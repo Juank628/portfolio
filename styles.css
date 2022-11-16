@@ -43,7 +43,7 @@ classes
 }
 
 .navbar-link {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
@@ -60,7 +60,7 @@ classes
 }
 
 .header-text {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 20px;
   color: #28352f;
@@ -76,7 +76,7 @@ classes
 }
 
 .intro-title {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -105,7 +105,7 @@ classes
 }
 
 .intro-subtitle {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -134,7 +134,7 @@ classes
 }
 
 .intro-text {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -157,7 +157,7 @@ classes
 }
 
 .works-title {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -212,7 +212,7 @@ classes
 
 .card-title {
   margin: 0;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -231,7 +231,7 @@ classes
 .work-skill {
   padding: 8px 12px;
   background-color: #ebf0ee;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -244,7 +244,7 @@ classes
   padding: 12px;
   height: 48px;
   background-color: #36b37f;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
@@ -271,7 +271,7 @@ classes
 }
 
 .about-title {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -282,7 +282,7 @@ classes
 }
 
 .about-text {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -317,7 +317,7 @@ classes
 
 .hability-title {
   margin: 20px 0 0 0;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -337,7 +337,7 @@ classes
 .hability-item {
   padding: 12px;
   background-color: white;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -347,7 +347,7 @@ classes
 
 .contact-text {
   margin: 36px 12px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -386,7 +386,7 @@ classes
 }
 
 .form-text::placeholder {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #091e42;
 }
 
@@ -396,7 +396,7 @@ classes
 }
 
 .my-email {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -446,6 +446,95 @@ classes
 
 .no-visible {
   display: none;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  padding: 16px;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.modal-close {
+  position: fixed;
+  top: 30px;
+  right: 40px;
+  width: 30px;
+  height: 30px;
+  background-image: url("./img/close_icon.png");
+}
+
+.modal-img {
+  width: 100%;
+  height: 220px;
+  background-image: url(./img/snapshoot_portfolio_mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.modal-project-name {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.modal-skills-container {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  margin-top: 12px;
+  margin-bottom: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.modal-project-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.modal-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background-color: #36b37f;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
+  border-radius: 4px;
+  border: 0;
 }
 
 /*
@@ -498,7 +587,7 @@ media
   }
 
   .about-container {
-    background: url("./img/about_background_desktop_1.svg") left 150px no-repeat, url("./img/about_background_desktop_2.svg") top right no-repeat;
+    background: url('./img/about_background_desktop_1.svg') left 150px no-repeat, url('./img/about_background_desktop_2.svg') top right no-repeat;
   }
 
   .about-text {
@@ -510,9 +599,9 @@ media
     grid-template-columns: 1fr 1fr;
     padding: 100px 150px;
     background:
-      url("./img/form_background_desktop_1.svg") bottom left no-repeat,
-      url("./img/form_background_desktop_2.svg") 300px bottom no-repeat,
-      url("./img/form_background_desktop_3.svg") bottom right no-repeat;
+      url('./img/form_background_desktop_1.svg') bottom left no-repeat,
+      url('./img/form_background_desktop_2.svg') 300px bottom no-repeat,
+      url('./img/form_background_desktop_3.svg') bottom right no-repeat;
   }
 
   .contact-text {
@@ -548,5 +637,61 @@ media
 
   .bottom-line {
     display: none;
+  }
+
+  .modal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 920px;
+    margin: auto;
+  }
+
+  .modal-close {
+    position: static;
+    background-image: url(./img/close_icon_dark.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ebecf0;
+    width: 40px;
+    height: 40px;
+    line-height: 0;
+    border-radius: 5px;
+    grid-column: 1/3;
+    margin-left: auto;
+    margin-bottom: 14px;
+  }
+
+  .modal-img {
+    grid-column: 1/3;
+    height: 616px;
+    background-image: url(./img/snapshoot_portfolio_desktop.png);
+  }
+
+  .modal-project-name {
+    grid-column: 1/2;
+    font-weight: 700;
+    margin-top: 24px;
+  }
+
+  .modal-skills-container {
+    grid-column: 1/3;
+    margin-top: 20px;
+  }
+
+  .modal-project-desc {
+    grid-column: 1/3;
+    margin-top: 36px;
+  }
+
+  .modal-buttons {
+    margin-top: 25px;
+    margin-left: auto;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    height: 48px;
+  }
+
+  .modal-button {
+    font-size: 15px;
   }
 }
