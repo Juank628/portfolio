@@ -55,6 +55,12 @@ const projects = [
   },
 ];
 
+let formData = {
+  'full-name': '',
+  'email': '',
+  'message': '',
+};
+
 /*
 Mobile menu
 */
@@ -127,4 +133,18 @@ document.getElementById('contact-form').addEventListener('submit', (e) => {
       .getElementById('email_error_lowercase')
       .classList.remove('no-visible');
   }
+});
+
+window.addEventListener('load', () => {
+  if (localStorage.getItem('formData') != null) {
+    document.querySelectorAll('[required]').forEach(formElement => {
+      const localFormData = JSON.parse(localStorage.getItem('formData'));
+      formElement.value = localFormData[formElement.id];
+    });
+  };
+});
+
+document.getElementById('contact-form').addEventListener('keyup', (e) => {
+  formData[e.target.id] = e.target.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
 });
