@@ -2,7 +2,8 @@ const projects = [
   {
     id: 'project_1',
     name: 'Keeping track of hundreds of components',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     img: './img/snapshoot_portfolio_template.png',
     technologies: ['Ruby on rails', 'css', 'JavsScript'],
     linkLive: 'https://juank628.github.io/portfolio/',
@@ -11,7 +12,8 @@ const projects = [
   {
     id: 'project_2',
     name: 'Keeping track of hundreds of components',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     img: './img/snapshoot_portfolio_template.png',
     technologies: ['Python', 'css', 'JavsScript'],
     linkLive: 'https://juank628.github.io/portfolio/',
@@ -20,7 +22,8 @@ const projects = [
   {
     id: 'project_3',
     name: 'Keeping track of hundreds of components',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     img: './img/snapshoot_portfolio_template.png',
     technologies: ['Node', 'css', 'JavsScript'],
     linkLive: 'https://juank628.github.io/portfolio/',
@@ -29,7 +32,8 @@ const projects = [
   {
     id: 'project_4',
     name: 'Keeping track of hundreds of components',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     img: './img/snapshoot_portfolio_template.png',
     technologies: ['Go', 'css', 'JavsScript'],
     linkLive: 'https://juank628.github.io/portfolio/',
@@ -38,7 +42,8 @@ const projects = [
   {
     id: 'project_5',
     name: 'Keeping track of hundreds of components',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     img: './img/snapshoot_portfolio_template.png',
     technologies: ['C++', 'css', 'JavsScript'],
     linkLive: 'https://juank628.github.io/portfolio/',
@@ -47,13 +52,20 @@ const projects = [
   {
     id: 'project_6',
     name: 'Keeping track of hundreds of components',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     img: './img/snapshoot_portfolio_template.png',
     technologies: ['C#', 'css', 'JavsScript'],
     linkLive: 'https://juank628.github.io/portfolio/',
     linkSource: 'https://github.com/Juank628/portfolio',
   },
 ];
+
+let formData = {
+  full_name: '',
+  email: '',
+  message: '',
+};
 
 /*
 Mobile menu
@@ -118,6 +130,9 @@ modalClose.addEventListener('click', () => {
   modal.classList.add('no-visible');
 });
 
+/*
+form validation
+*/
 document.getElementById('contact-form').addEventListener('submit', (e) => {
   const email = document.getElementById('email');
   const emailRegex = /^[a-z0-9_.]+@[a-z0-9_.]+\.[a-z0-9_.]+$/;
@@ -127,4 +142,21 @@ document.getElementById('contact-form').addEventListener('submit', (e) => {
       .getElementById('email_error_lowercase')
       .classList.remove('no-visible');
   }
+});
+
+/*
+preserve form data
+*/
+window.addEventListener('load', () => {
+  formData = JSON.parse(localStorage.getItem('formData'));
+  if (localStorage.getItem('formData') != null) {
+    document.querySelectorAll('[required]').forEach((formElement) => {
+      formElement.value = formData[formElement.id];
+    });
+  }
+});
+
+document.getElementById('contact-form').addEventListener('keyup', (e) => {
+  formData[e.target.id] = e.target.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
 });
