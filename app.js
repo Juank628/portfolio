@@ -62,7 +62,7 @@ const projects = [
 ];
 
 let formData = {
-  'full-name': '',
+  full_name: '',
   email: '',
   message: '',
 };
@@ -145,7 +145,7 @@ document.getElementById('contact-form').addEventListener('submit', (e) => {
 });
 
 /*
-store form data
+preserve form data
 */
 window.addEventListener('load', () => {
   formData = JSON.parse(localStorage.getItem('formData'));
